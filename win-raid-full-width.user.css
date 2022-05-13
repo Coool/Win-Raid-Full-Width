@@ -1,0 +1,29 @@
+/* ==UserStyle==
+@name        Win-Raid Full Width
+@namespace   Win-Raid-Full-Width
+@version     1.0
+@description Enable Full Width Layout
+@homepageURL https://github.com/Coool/Win-Raid-Full-Width
+@updateURL   https://raw.githubusercontent.com/Coool/Win-Raid-Full-Width/master/win-raid-full-with.user.css
+@license     CC-BY-SA-4.0
+@author      Coool
+==/UserStyle== */
+@-moz-document domain("winraid.level1techs.com") {
+    html body #main-outlet {
+        margin-top: 10px;
+        padding: 10px 10px 5%;
+        max-width: 98%;
+    }
+
+    .wrap {
+        max-width: 100%;
+    }
+
+    .container.posts {
+        grid-template-columns: auto 95px;
+    }
+
+    .topic-body {
+        width: calc(100% - 50px);
+    }
+}
